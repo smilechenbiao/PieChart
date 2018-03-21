@@ -1,4 +1,4 @@
-package cn.com.example.piechart;
+﻿package cn.com.example.piechart;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         //mobile_pie_chart.setDrawEntryLabels(false)  //设置x值不显示
         mPieChart.setEntryLabelTextSize(10f);
-        mPieChart.setEntryLabelColor(Color.WHITE);
+        mPieChart.setEntryLabelColor(Color.WHITE); //设置标签颜色
         mPieChart.getLegend().setEnabled(false);//隐藏默认图列
         mPieChart.getDescription().setEnabled(false);//隐藏描述文字
         mPieChart.setTransparentCircleRadius(50f);// 半透明圈半径
